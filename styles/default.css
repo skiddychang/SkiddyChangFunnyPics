@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+div#mainDiv{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+div#mainDiv .funnyPicDiv{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    border: solid 1px #ccc;
+    margin-top: 32px;
+}
+
+div#mainDiv .funnyPicDiv .funnyPic{
+    display: block;
+    margin: 0 auto;
+}
+
+div#mainDiv .funnyPicDiv .funnyPic img{
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+div#mainDiv .funnyPicDiv .funnyPic video{
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
